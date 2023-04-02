@@ -1,0 +1,30 @@
+namespace = iakytb
+
+#collapse yabonia
+country_event = {
+    id = iakytb.1
+    title = iakytb.1.t
+    picture = HORDE_ON_HORSEBACK_eventPicture
+    desc = iakytb.1.d
+    fire_only_once = yes
+    
+    is_triggered_only = yes
+
+    option = {
+        name = iakytb.1.a
+        ai_chance = { factor = 1 }
+        custom_tooltip = yabonia_collapsed
+        hidden_effect = {
+            YAB = {
+                release = GET
+                release = BAL
+                release = NOG
+                release = JII
+                release = JTA
+                release = ZBL
+                release = MHN
+				release = KIN
+            }
+        }
+    }
+}
