@@ -1,4 +1,4 @@
-version="1.4.0-1"
+version="1.3.1"
 tags={
 	"Map"
 	"Events"
@@ -10,7 +10,7 @@ tags={
 	"Missions And Decisions"
 	"Military"
 }
-name="Famana Universalis"
+name="Famana Universalis - Estali Wilderness"
 replace_path="common/country_tags"
 replace_path="common/countries"
 replace_path="common/bookmarks"
