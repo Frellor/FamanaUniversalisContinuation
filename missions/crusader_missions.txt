@@ -1,0 +1,250 @@
+crusader_missions_1 = { 
+	slot = 3
+	generic = no 
+	ai = yes 
+	potential = {
+		OR = {
+		       tag = IAK
+		       tag = YTB
+	    }
+	    NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	cru_preparing_for_the_invasion = {
+		icon = restore_the_hospitallers
+		required_missions = {  }
+		position = 1
+		provinces_to_highlight = {
+			OR = {
+				area = unnamed_area_40
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			unnamed_area_40 = { type = all country_or_non_sovereign_subject_holds = ROOT }
+		}
+        effect = { #This is what you get after you finished your mission.
+			aresia_region = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+			}
+			add_permanent_claim = ROOT
+			}
+            add_country_modifier = {
+				name = "thriving_arms_industry"
+				duration = 18250 #50 years
+			} 
+		}
+	}
+	cru_domination_of_south_aresia = {
+		icon = mission_unite_home_region
+		required_missions = { cru_preparing_for_the_invasion }
+		position = 2
+		provinces_to_highlight = {
+			OR = {
+				area = yatia_area
+				area = pasba_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			yatia_area = { type = all country_or_non_sovereign_subject_holds = ROOT }
+			pasba_area = { type = all country_or_non_sovereign_subject_holds = ROOT }
+		}
+        effect = { #This is what you get after you finished your mission.
+			bamali_gulf_region = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+			}
+			add_permanent_claim = ROOT
+			} 
+		}
+	}
+    cru_defeating_yabonia = {
+		icon = mission_abu_saids_dream
+		required_missions = { cru_preparing_for_the_invasion }
+		position = 3
+		provinces_to_highlight = {
+			OR = {
+				area = unnamed_area_45
+				area = unnamed_area_44
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			unnamed_area_45 = { type = all country_or_non_sovereign_subject_holds = ROOT }
+			unnamed_area_44 = { type = all country_or_non_sovereign_subject_holds = ROOT }
+		}
+        effect = { #This is what you get after you finished your mission.
+            country_event = { 
+                id = iakytb.1
+				days = 1
+			} 
+		}
+	}
+	cru_end_of_aresia = {
+		icon = mission_unite_home_region
+		required_missions = { cru_defeating_yabonia }
+		position = 4
+		provinces_to_highlight = {
+			OR = {
+				region = aresia_region
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			aresia_region = { type = all country_or_non_sovereign_subject_holds = ROOT }
+		}
+        effect = { #This is what you get after you finished your mission.
+		    jasua_superregion = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+			}
+			add_permanent_claim = ROOT
+			} 
+		}
+	}
+	cru_tonmo_invasion = {
+		icon = mission_build_up_to_force_limit
+		required_missions = { cru_end_of_aresia }
+		position = 5
+		provinces_to_highlight = {
+			OR = {
+				region = jasua_superregion
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			jasua_superregion = { religion = tonmo }
+		}
+        effect = { #This is what you get after you finished your mission.
+		    add_country_modifier = {
+				name = af_defender_of_jasua_modifier
+				duration = 9125
+			} 
+		}
+	}
+}
+crusader_missions_2 = { 
+	slot = 2
+	generic = no 
+	ai = yes 
+	potential = {
+		OR = {
+		       tag = IAK
+		       tag = YTB
+	    }
+	    NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+    cru_meeting_place_for_crusaders = {
+		icon = restore_the_hospitallers
+		required_missions = {  }
+		position = 1
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 1
+				OR = { 
+					has_building = temple
+					has_building = cathedral
+				}
+			}
+		}
+        effect = { #This is what you get after you finished your mission.
+            add_country_modifier = {
+				name = "influential_diplomacy"
+				duration = 18250 #50 years
+			} 
+		}
+	}
+	cru_bamali_alliance = {
+		icon = restore_the_hospitallers
+		required_missions = { cru_meeting_place_for_crusaders }
+		position = 2
+		trigger = {
+			BMF = {
+			       has_opinion = {
+						who = ROOT
+						value = 100
+				}
+			}
+		}
+        effect = { #This is what you get after you finished your mission.
+            create_alliance = BMF
+		} 
+	}
+	cru_bamali_vassalization = {
+		icon = restore_the_hospitallers
+		required_missions = { cru_bamali_alliance }
+		position = 3
+		trigger = {
+			BMF = {
+			       has_opinion = {
+						who = ROOT
+						value = 150
+				}
+			}
+		}
+         effect = { #This is what you get after you finished your mission.
+                vassalize = BMF
+			} 
+		}
+}
+crusader_missions_3 = { 
+	slot = 4
+	generic = no 
+	ai = yes 
+	potential = {
+		OR = {
+		       tag = IAK
+		       tag = YTB
+	    }
+	    NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	cru_high_income_mission = {
+		icon = mission_high_income
+		required_missions = {  } #None
+		trigger = { share_of_starting_income = 1.5 }
+		effect = {
+			add_country_modifier = {
+				name = "growing_economy"
+				duration = 18250 #50 years
+			}
+		}
+	}
+	cru_center_of_the_gulf = {
+		icon = restore_the_hospitallers
+		required_missions = { cru_high_income_mission }
+		position = 1
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 2
+				OR = { 
+					has_building = marketplace
+				}
+			}
+		}
+        effect = { #This is what you get after you finished your mission.
+            add_adm_power = 150
+			} 
+		}
+	}
+	cru_gulf_trade = {
+		icon = mission_war_chest
+		required_missions = { cru_center_of_the_gulf }
+		position = 3
+		trigger = {
+			5536 = { is_strongest_trade_power = ROOT } # here, "xxx" should be a province in the trade node you want to target - generally the primary province of the whole node
+		}
+        effect = { #This is what you get after you finished your mission.
+            add_dip_power = 200
+			} 
+		}
+	}
