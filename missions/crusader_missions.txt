@@ -134,7 +134,6 @@ crusader_missions_1 = {
 		position = 6
 		required_missions = {
 			cru_bamali_vassalization
-			cru_gulf_trade
 			cru_tonmo_invasion
 		}
 		provinces_to_highlight = {  } 
@@ -248,18 +247,6 @@ crusader_missions_3 = {
 		}
         effect = { #This is what you get after you finished your mission.
             add_adm_power = 150
-			} 
-		}
+		} 
 	}
-	cru_gulf_trade = {
-		icon = mission_war_chest
-		required_missions = { cru_center_of_the_gulf }
-		position = 3
-		trigger = {
-			5536 = { is_strongest_trade_power = ROOT } # here, "xxx" should be a province in the trade node you want to target - generally the primary province of the whole node
-		}
-        effect = { #This is what you get after you finished your mission.
-            add_dip_power = 200
-			} 
-		}
-	}
+}
