@@ -1,0 +1,15 @@
+culture = Makyan_C
+religion = gadan
+hre = yes
+base_tax = 1
+base_production = 2
+trade_goods = fish
+base_manpower = 1
+capital = "Bamig"
+owner = JKK
+is_city = yes
+controller = JKK
+add_core = JKK
+discovered_by = east_gomic_tech_gr
+discovered_by = lathvy_tech_gr
+discovered_by = west_gomic_tech_gr

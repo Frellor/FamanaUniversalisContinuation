@@ -1,0 +1,5 @@
+discovered_by = east_gomic_tech_gr
+discovered_by = lathvy_tech_gr
+discovered_by = west_gomic_tech_gr
+hre = yes
+is_city = no

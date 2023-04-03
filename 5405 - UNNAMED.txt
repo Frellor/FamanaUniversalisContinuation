@@ -1,0 +1,15 @@
+culture = Neo_Xalnish
+religion = shirian
+owner = VOX
+is_city = yes
+controller = VOX
+hre = yes
+base_tax = 5
+base_production = 4
+trade_goods = wine
+base_manpower = 5
+capital = "Larm"
+add_core = VOX
+discovered_by = east_gomic_tech_gr
+discovered_by = lathvy_tech_gr
+discovered_by = west_gomic_tech_gr

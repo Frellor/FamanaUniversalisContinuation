@@ -1,0 +1,16 @@
+culture = Sixany
+religion = vinian
+owner = SIX
+is_city = yes
+controller = SIX
+hre = yes
+base_tax = 4
+base_production = 2
+trade_goods = cloth
+base_manpower = 2
+capital = "Vintin"
+add_core = SIX
+add_core = AGS
+discovered_by = east_gomic_tech_gr
+discovered_by = lathvy_tech_gr
+discovered_by = west_gomic_tech_gr
