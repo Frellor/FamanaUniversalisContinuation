@@ -1,0 +1,15 @@
+culture = Elwaiti
+religion = pawani
+owner = ELW
+is_city = yes
+controller = ELW
+hre = yes
+base_tax = 3
+base_production = 2
+trade_goods = livestock
+base_manpower = 2
+capital = "Sustox"
+add_core = ELW
+discovered_by = east_gomic_tech_gr
+discovered_by = lathvy_tech_gr
+discovered_by = west_gomic_tech_gr

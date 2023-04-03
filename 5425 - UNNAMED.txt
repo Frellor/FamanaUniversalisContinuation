@@ -1,0 +1,16 @@
+culture = Neo_Xalnish
+religion = shirian
+owner = NKM
+is_city = yes
+controller = NKM
+hre = yes
+base_tax = 2
+base_production = 1
+trade_goods = paper
+base_manpower = 2
+capital = "Mexid"
+add_core = NKM
+add_claim = VOX
+discovered_by = east_gomic_tech_gr
+discovered_by = lathvy_tech_gr
+discovered_by = west_gomic_tech_gr

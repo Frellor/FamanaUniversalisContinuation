@@ -1,0 +1,16 @@
+culture = Elwaiti
+religion = pawani
+owner = ELW
+is_city = yes
+controller = ELW
+hre = yes
+base_tax = 3
+base_production = 3
+trade_goods = cloth
+base_manpower = 2
+capital = "Asomol"
+center_of_trade = 1
+add_core = ELW
+discovered_by = east_gomic_tech_gr
+discovered_by = lathvy_tech_gr
+discovered_by = west_gomic_tech_gr

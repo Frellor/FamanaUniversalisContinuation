@@ -1,0 +1,15 @@
+culture = Sixany
+religion = shirian
+owner = CLL
+is_city = yes
+controller = CLL
+hre = yes
+base_tax = 4
+base_production = 4
+trade_goods = naval_supplies
+base_manpower = 3
+capital = "Keiz"
+add_core = CLL
+discovered_by = east_gomic_tech_gr
+discovered_by = lathvy_tech_gr
+discovered_by = west_gomic_tech_gr

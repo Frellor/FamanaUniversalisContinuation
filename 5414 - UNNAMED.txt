@@ -1,0 +1,15 @@
+culture = Glasian
+religion = vinian
+owner = JXS
+is_city = yes
+controller = JXS
+hre = yes
+base_tax = 3
+base_production = 4
+trade_goods = livestock
+base_manpower = 4
+capital = "Za Zat"
+add_core = JXS
+discovered_by = east_gomic_tech_gr
+discovered_by = lathvy_tech_gr
+discovered_by = west_gomic_tech_gr

@@ -1,0 +1,16 @@
+culture = Sixany
+religion = vinian
+owner = SIX
+is_city = yes
+controller = SIX
+hre = yes
+base_tax = 3
+base_production = 3
+trade_goods = grain
+base_manpower = 4
+capital = "Buvis"
+add_core = SIX
+add_core = VIN
+discovered_by = east_gomic_tech_gr
+discovered_by = lathvy_tech_gr
+discovered_by = west_gomic_tech_gr

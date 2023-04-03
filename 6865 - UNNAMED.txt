@@ -1,0 +1,13 @@
+#Written with Eu4 Easy Province Creator by emiroercn
+#UNNAMED
+culture = Placeholder_culture
+religion = animism
+owner = SHV
+is_city = yes
+controller = SHV
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "UNNAMED"
+add_core = SHV
+discovered_by = hasmali_tech_gr

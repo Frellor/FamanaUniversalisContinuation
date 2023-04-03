@@ -1,0 +1,15 @@
+culture = Xofkan
+religion = lathvy
+owner = VNS
+is_city = yes
+controller = VNS
+hre = yes
+base_tax = 2
+base_production = 3
+trade_goods = fish
+base_manpower = 2
+capital = "Vensa"
+add_core = VNS
+discovered_by = east_gomic_tech_gr
+discovered_by = lathvy_tech_gr
+discovered_by = west_gomic_tech_gr

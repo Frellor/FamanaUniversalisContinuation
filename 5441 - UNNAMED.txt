@@ -1,0 +1,15 @@
+culture = Glasian
+religion = vinian
+owner = ALM
+is_city = yes
+controller = ALM
+hre = yes
+base_tax = 3
+base_production = 3
+trade_goods = cloth
+base_manpower = 2
+capital = "Gal Tua"
+add_core = ALM
+discovered_by = east_gomic_tech_gr
+discovered_by = lathvy_tech_gr
+discovered_by = west_gomic_tech_gr

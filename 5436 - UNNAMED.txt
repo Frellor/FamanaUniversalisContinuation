@@ -1,0 +1,15 @@
+culture = Glasian
+religion = vinian
+owner = ALM
+is_city = yes
+controller = NPT
+hre = yes
+base_tax = 4
+base_production = 4
+trade_goods = livestock
+base_manpower = 3
+capital = "Roqro"
+add_core = ALM
+discovered_by = east_gomic_tech_gr
+discovered_by = lathvy_tech_gr
+discovered_by = west_gomic_tech_gr
