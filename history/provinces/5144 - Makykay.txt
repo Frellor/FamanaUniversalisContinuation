@@ -1,28 +1,19 @@
-discovered_by = east_gomic_tech_gr
-discovered_by = lathvy_tech_gr
-discovered_by = west_gomic_tech_gr
-#Written with Eu4 Easy Province Creator by emiroercn
-#Makykay
- 
 culture = Makyan_C
 religion = mak
-hre = no
-
+hre = yes
 base_tax = 1
 base_production = 1
 trade_goods = tropical_wood
 base_manpower = 1
 capital = "Almuz"
- 
-
-  
-
 owner = HZR
 is_city = yes
 controller = HZR
-add_core = HZR
-
 add_permanent_province_modifier = {
 	name = gomic_breadbasket
 	duration = -1
 }
+add_core = HZR
+discovered_by = east_gomic_tech_gr
+discovered_by = lathvy_tech_gr
+discovered_by = west_gomic_tech_gr

@@ -1,21 +1,15 @@
-discovered_by = east_gomic_tech_gr
-discovered_by = lathvy_tech_gr
-discovered_by = west_gomic_tech_gr
 culture = Sixany
 religion = vinian
 owner = SIX
 is_city = yes
 controller = SIX
-add_core = SIX
-
-###
-
-hre = no
-
+hre = yes
 base_tax = 3
 base_production = 4
 trade_goods = naval_supplies
 base_manpower = 4
 capital = "Llamborna"
- 
-
+add_core = SIX
+discovered_by = east_gomic_tech_gr
+discovered_by = lathvy_tech_gr
+discovered_by = west_gomic_tech_gr

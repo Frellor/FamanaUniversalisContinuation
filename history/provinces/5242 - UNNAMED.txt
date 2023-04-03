@@ -1,23 +1,15 @@
-discovered_by = east_gomic_tech_gr
-discovered_by = lathvy_tech_gr
-discovered_by = west_gomic_tech_gr
 culture = Delkian_C
 religion = delkian
 owner = DEL
 is_city = yes
 controller = DEL
-add_core = DEL
-
-###
-
-hre = no
-
+hre = yes
 base_tax = 2
 base_production = 4
 trade_goods = iron
 base_manpower = 3
 capital = "Kalmo"
- 
-
-
-
+add_core = DEL
+discovered_by = east_gomic_tech_gr
+discovered_by = lathvy_tech_gr
+discovered_by = west_gomic_tech_gr

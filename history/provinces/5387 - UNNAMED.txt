@@ -1,22 +1,15 @@
-discovered_by = east_gomic_tech_gr
-discovered_by = lathvy_tech_gr
-discovered_by = west_gomic_tech_gr
 culture = Kom
 religion = shirian
 owner = KOM
 is_city = yes
 controller = KOM
-add_core = KOM
-
-###
-
-hre = no
-
+hre = yes
 base_tax = 3
 base_production = 5
 trade_goods = slaves
 base_manpower = 4
 capital = "Op"
- 
-
-
+add_core = KOM
+discovered_by = east_gomic_tech_gr
+discovered_by = lathvy_tech_gr
+discovered_by = west_gomic_tech_gr

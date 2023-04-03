@@ -1,22 +1,15 @@
-discovered_by = east_gomic_tech_gr
-discovered_by = lathvy_tech_gr
-discovered_by = west_gomic_tech_gr
 culture = Glasian
 religion = vinian
 owner = JXS
 is_city = yes
 controller = JXS
-add_core = JXS
-
-###
-
-hre = no
-
+hre = yes
 base_tax = 5
 base_production = 5
 trade_goods = glass
 base_manpower = 4
 capital = "Abvori"
- 
-
-
+add_core = JXS
+discovered_by = east_gomic_tech_gr
+discovered_by = lathvy_tech_gr
+discovered_by = west_gomic_tech_gr

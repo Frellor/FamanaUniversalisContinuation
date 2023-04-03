@@ -2,11 +2,9 @@
 #UNNAMED
 culture = Placeholder_culture
 religion = animism
-add_core = SHV
 owner = SHV
-is_city = yes
+is_city = no
 controller = SHV
-hre = yes
 base_tax = 1
 base_production = 1
 base_manpower = 1
@@ -15,5 +13,5 @@ native_size = 10
 native_ferocity = 6
 native_hostileness = 3
 capital = "UNNAMED"
- 
 #
+add_core = SHV
