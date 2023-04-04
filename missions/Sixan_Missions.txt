@@ -17,13 +17,30 @@ new_branch = {
 		icon = mission_humiliate_provence
 		position = 5
 		required_missions = { on_the_warpath } 
-		provinces_to_highlight = {  } 
+		provinces_to_highlight = {
+			OR = {
+				province_id = 5464
+				province_id = 5468
+				province_id = 5444
+			}
+		  } 
 
-		trigger = {  } 
+		trigger = {
+			owns_core_province = 5464
+			owns_core_province = 5468
+			owns_core_province = 5444
+		  } 
 
-		effect = {  } 
+		effect = {
+			add_country_modifier = {
+				name = victor_of_the_peninsula
+				duration = 7300
+			}
+			add_prestige = 20
+		  } 
 	}
 }
+
 new_branch = {
 	slot = 2
 	generic = no
@@ -37,20 +54,46 @@ new_branch = {
 		required_missions = { a_nation_healing } 
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = {
+			num_of_light_ship = 5
+			num_of_heavy_ship = 1
+		  } 
 
-		effect = {  } 
+		effect = {
+			add_navy_tradition = 15
+			add_country_modifier = {
+				name = will_of_vin
+				duration = 3650
+			}
+		  } 
 	}
 
-	conquer_marlet = {
+	conquer_marnet = {
 		icon = the_russian_campaign
 		position = 5
 		required_missions = { on_the_warpath } 
-		provinces_to_highlight = {  } 
+		provinces_to_highlight = {
+			OR = {
+				area = marnet_area
+				province_id = 5163
+			}
+		  } 
 
-		trigger = {  } 
+		trigger = {
+			marnet_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			owns_core_province = 5163
+		  } 
 
-		effect = {  } 
+		effect = {
+			prestige = 20
+			add_country_modifier = {
+				name = marnet_traders
+				duration = 3650
+			}
+		} 
 	}
 }
 new_branch = {
@@ -84,9 +127,23 @@ new_branch = {
 		required_missions = { a_nation_healing } 
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 2
+				has_building = temple
+			}
+			num_of_owned_provinces_with = {
+				value = 1
+				has_building = marketplace
+			}
+		 } 
 
-		effect = {  } 
+		effect = {
+			add_country_modifier = {
+				name = recover_from_invasion
+				duration = 3650
+			}
+		  } 
 	}
 
 	lord_of_all_sixania = {
@@ -128,7 +185,7 @@ new_branch = {
 
 		effect = {
 		calla_area = { add_permanent_claim = ROOT }
-		relxal_area = { add_permanent_claim = ROOT }
+		oxaled_area = { add_permanent_claim = ROOT }
 		jexus_area = { add_permanent_claim = ROOT }
 		abvori_area = { add_permanent_claim = ROOT }
 		marnet_area = { add_permanent_claim = ROOT }
@@ -144,7 +201,7 @@ new_branch = {
 		required_missions = {
 			kill_jexus
 			kill_relxal
-			conquer_marlet
+			conquer_marnet
 			destroy_the_giant
 		}
 		provinces_to_highlight = {  } 
@@ -182,7 +239,7 @@ new_branch = {
 
 		trigger = {
 			army_professionalism = 0.1
-			army_size = 20
+			army_size = 18
 			mil_power = 50
 		  } 
 
@@ -239,10 +296,30 @@ new_branch = {
 		icon = revenge_for_nicopolis
 		position = 5
 		required_missions = { on_the_warpath } 
-		provinces_to_highlight = {  } 
+		provinces_to_highlight = {
+			OR = {
+				area = calla_area
+				area = oxaled_area
+			}
+		  } 
 
-		trigger = {  } 
+		trigger = {
+			calla_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			oxaled_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		} 
 
-		effect = {  } 
+		effect = {
+			add_country_modifier = {
+				name = convert_the_shirians
+				duration = 365
+			}
+			add_army_tradition = 20
+		} 
 	}
 }
