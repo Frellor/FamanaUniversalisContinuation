@@ -14,7 +14,6 @@ borborea_missions_1 = {
         # Determines which provinces to highlight. Acts like all_province scope. Optional.
         provinces_to_highlight = {
             province_id = 5709
-			province_id = 5708
         }
     
         # Determines when the mission is completed. Country scope.
@@ -26,6 +25,106 @@ borborea_missions_1 = {
         effect = {
             set_capital = 5709
 			add_mil_tech = 1
+			add_prestige = 15
+        }
+    }
+	    # The name of the mission, used for localization
+    bor_honor_heksada = {
+        icon = mission_buddhist_monk_praying
+        position = 2        
+        required_missions = {
+            bor_retake_borbor
+        }
+        
+        # Determines which provinces to highlight. Acts like all_province scope. Optional.
+        provinces_to_highlight = {
+            province_id = 5709
+        }
+    
+        # Determines when the mission is completed. Country scope.
+        trigger = {
+            5709 = {
+				is_propserous = yes
+				NOT = {
+				devastation = 1
+				}
+			}
+        }
+		
+        effect = {
+            add_prestige 25
+			every_country = {
+				limit = {
+					religion = ROOT
+				}
+				every_country = {
+					limit = {
+						religion = ROOT
+						NOT = PREV
+					}
+					reverse_add_opinion = {
+						who = PREV
+						modifier = dedicated_festival
+					}
+				}
+			}
+        }
+    }
+}
+borborea_missions_5 = {
+    slot = 5                    
+    generic = no            
+    ai = yes                 
+    has_country_shield = yes     
+    potential = {
+        tag = BOR
+    }
+    # The name of the mission, used for localization
+    bor_ordic_liturgy = {
+        icon = mission_scholar_officials            
+        position = 1        # Which row the mission appears in. 1 is top. If you omit this line, it will occupy the first row aviable.
+        
+        # Determines when the mission is completed. Country scope.
+        trigger = {
+            has_institution = renaissance
+        }
+        
+        # The effect executed when the mission is claimed. Country scope.
+        effect = {
+            set_capital = 5709
+			add_mil_tech = 1
+			add_prestige = 15
+        }
+    }
+	    # The name of the mission, used for localization
+    bor_lathvy_syncretism = {
+        icon = mission_religious
+        position = 2        
+        required_missions = {
+            bor_ordic_liturgy
+        }
+        
+        # Determines which provinces to highlight. Acts like all_province scope. Optional.
+        provinces_to_highlight = {
+            province_id = 5709
+        }
+    
+        # Determines when the mission is completed. Country scope.
+        trigger = {
+            province_id 5709 = {
+				is_propserous = yes
+				NOT = {
+				devastation = 1
+				}
+			}
+        }
+		
+        effect = {
+            add_prestige 25
+			add_opinion = {
+				who = has_matching_religion = ROOT
+				modifier = dedicated_festival
+			}
         }
     }
 }
