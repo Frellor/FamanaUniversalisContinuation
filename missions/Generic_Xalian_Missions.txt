@@ -6,6 +6,7 @@ xalian_religious_missions = {
 	
 	potential = {
 	   religion_group = xalian_group
+	   not = tag SIX
 	}
 	xalian_unite_the_faiths = {
 		icon = mission_hands_praying

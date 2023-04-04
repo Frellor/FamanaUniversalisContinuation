@@ -1,0 +1,248 @@
+new_branch = {
+	slot = 1
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		OR = {
+			tag = SIX
+			AND = {
+				tag = VNA
+				was_tag = SIX
+			}
+		}
+	} 
+
+	destroy_the_giant = {
+		icon = mission_humiliate_provence
+		position = 5
+		required_missions = { on_the_warpath } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+}
+new_branch = {
+	slot = 2
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = SIX } 
+
+	will_of_vin = {
+		icon = mission_rb_scottish_north_sea_trade
+		position = 2
+		required_missions = { a_nation_healing } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	conquer_marlet = {
+		icon = the_russian_campaign
+		position = 5
+		required_missions = { on_the_warpath } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+}
+new_branch = {
+	slot = 3
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = SIX } 
+
+	a_nation_healing = {
+		icon = mission_fall_of_third_rome
+		position = 1
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			stability = 1
+			dip_power = 100
+			adm_power = 100 
+			} 
+
+		effect = { 
+			add_years_of_income = 1
+			add_dip_power = -100
+			add_adm_power = -100
+		 } 
+	}
+
+	rebuild_from_war = {
+		icon = great_castle
+		position = 2
+		required_missions = { a_nation_healing } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	lord_of_all_sixania = {
+		icon = king_of_kings
+		position = 3
+		required_missions = {
+			will_of_vin
+			rebuild_from_war
+			warrior_army
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 5449
+				province_id = 5459
+			}
+		  } 
+
+		trigger = {
+			owns_core_province = 5449
+			owns_core_province = 5459
+		 } 
+
+		effect = {
+			add_prestige = 15
+			override_country_name = Sixania
+		  } 
+	}
+
+	on_the_warpath = {
+		icon = mission_spoils_of_war
+		position = 4
+		required_missions = { lord_of_all_sixania } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			manpower_percentage = 0.5
+			army_size_percentage = 1
+		 } 
+
+		effect = {
+		calla_area = { add_permanent_claim = ROOT }
+		relxal_area = { add_permanent_claim = ROOT }
+		jexus_area = { add_permanent_claim = ROOT }
+		abvori_area = { add_permanent_claim = ROOT }
+		marnet_area = { add_permanent_claim = ROOT }
+		5163 = { add_permanent_claim = ROOT }
+		5444 = { add_permanent_claim = ROOT }
+		5468 = { add_permanent_claim = ROOT }
+		5464 = { add_permanent_claim = ROOT }
+		}
+	}
+	lord_of_all_vinia = {
+		icon = mission_the_third_rome
+		position = 6
+		required_missions = {
+			kill_jexus
+			kill_relxal
+			conquer_marlet
+			destroy_the_giant
+		}
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			stability = 3
+			dominant_religion = vinian
+		  } 
+
+		effect = {
+			add_adm_power = 100
+			add_dip_power = 100
+			add_mil_power = 100
+			add_yearly_manpower = 2.5
+			add_country_modifier = {
+				name = lord_of_all_vinia
+				duration = 7300
+			}
+		 } 
+	}
+}
+
+new_branch = {
+	slot = 4
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = SIX } 
+
+	warrior_army = {
+		icon = confront_the_lombards
+		position = 2
+		required_missions = { a_nation_healing } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			army_professionalism = 0.1
+			army_size = 20
+			mil_power = 50
+		  } 
+
+		effect = {
+			add_mil_power = -50
+			add_country_modifier = {
+				name = a_trained_army
+				duration = 3650
+			}
+		 } 
+	}
+
+	kill_jexus = {
+		icon = mission_protect_albania
+		position = 5
+		required_missions = { on_the_warpath } 
+		provinces_to_highlight = {
+			OR = {
+			area = jexus_area
+			area = abvori_area
+			}
+		} 
+
+		trigger = {
+			jexus_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			abvori_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			NOT = {
+						exists = JXS
+		  } 
+		}
+
+		effect = {
+			add_accepted_culture = glasian
+			add_mil_power = 50
+		 } 
+	}
+}
+	
+
+new_branch = {
+	slot = 5
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = SIX } 
+
+	kill_relxal = {
+		icon = revenge_for_nicopolis
+		position = 5
+		required_missions = { on_the_warpath } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+}

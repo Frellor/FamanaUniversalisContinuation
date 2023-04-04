@@ -1,43 +1,70 @@
 ﻿l_english:
- 
+ destroy_the_giant_title:0 "Destroying the Giant"
+ destroy_the_giant_desc:0 ""
+
+ will_of_vin_title:0 "The Will of Vin"
+ will_of_vin_desc:0 ""
+
+ conquer_marlet_title:0 "Conquer Marlet"
+ conquer_marlet_desc:0 ""
+
+ a_nation_healing_title:0 "A Nation Healing"
+ a_nation_healing_desc:0 "After the invasion by Moxon - Sixan lays shattered; a nation born from a Yomtanian Invasion. Along with this, the devastation wrought in our lands is immense - one in which all the fiefs and lords of the Vinian religion must cooperate; lest all of it fall."
+
+ rebuild_from_war_title:0 "Rebuild What Was Lost"
+ rebuild_from_war_desc:0 ""
+
+ lord_of_all_sixania_title:0 "Lord of All Sixania"
+ lord_of_all_sixania_desc:0 ""
+
+ on_the_warpath_title:0 "On the Warpath"
+ on_the_warpath_desc:0 ""
+
+ lord_of_all_vinia_title:0 "Lord of All Vinia"
+ lord_of_all_vinia_desc:0 ""
+
+ warrior_army_title:0 "Army of Warriors"
+ warrior_army_desc:0 ""
+
+ kill_jexus_title:0 "The Invasion of Jexus"
+ kill_jexus_desc:0 ""
+
+ kill_relxal_title:0 "Annex Relxal"
+ kill_relxal_desc:0 ""
+
+
+ repair_the_ruins_title:0 "Repair the Ruins"
+ repair_the_ruins_desc:0 ""
+ a_nation_in_turmoil_title:0 "A Nation in Turmoil"
+ a_nation_in_turmoil_desc:0 ""
+ big_fleet_title:0 "The Will of Vin"
+ big_fleet_desc:0 ""
+ new_mission_title:0 ""
+ new_mission_desc:0 ""
  cru_preparing_for_the_invasion_title:0 "Preparing for the Invasion"
  cru_preparing_for_the_invasion_desc:0 "The Time has come, our crusade against the heathens shall begin, and they will taste the bite of our sword!"
-
  cru_domination_of_south_aresia_title:0 "Domination of South Aresia"
  cru_domination_of_south_aresia_desc:0 "South Aresia will be ours, as its powerbase will be important for our rise to power."
-
  cru_defeating_yabonia_title:0 "Defeating Yabonia"
  cru_defeating_yabonia_desc:0 "The Yabonians, a superpower, have been challenging our life as a nation, but with the help of allies we will easily be able to defeat them."
-
  cru_end_of_aresia_title:0 "End of Aresia"
  cru_end_of_aresia_desc:0 "As Aresia is approaching our dominion, our greatness shall rule over it."
-
  cru_tonmo_invasion_title:0 "Tonmo Invasion"
  cru_tonmo_invasion_desc:0 "As the Fashrans genocide peoples, we realize our true purpose, to defeat Fashro's forces and become the Crusaders. But for that, we shall prepare for war."
-
  cru_aresian_crusaders_title:0 "Aresian Crusaders"
  cru_aresian_crusaders_desc:0 "It is time! Everyone, the Horde shall be stopped by our sword, and its rampage shall die with it! Ara VULT!"
-
  cru_meeting_place_for_crusaders_title:0 "Meeting Place for Crusaders"
  cru_meeting_place_for_crusaders_desc:0 "The people that are willing to fight for our religion shall come here and recruit for our cause, and for that we're gonna build advanced churches."
-
  cru_bamali_alliance_title:0 "Bamali Alliance"
  cru_bamali_alliance_desc:0 "Recently, the Bamalis have been willing to be our great ally, and now we could use that opportunity for them to become of our help."
-
  cru_bamali_vassalization_title:0 "Bamali Vassalization"
  cru_bamali_vassalization_desc:0 "Now that we're allies, the people of Bamal realize that we are now their protectors, and so they have sent a vassalization offer, and of course we shall accept."
-
  cru_high_income_mission_title:0 "Great Income"
  cru_high_income_mission_desc:0 "Our economy is slowly rising, which is good news for us."
-
  cru_center_of_the_gulf_title:0 "Center of the Gulf"
  cru_center_of_the_gulf_desc:0 "We are slowly becoming the center of trade in the Aresian Gulf, and for that we have been started to call "The Center of the Gulf"."
-
  cru_gulf_trade_title:0 "Gulf Trade"
  cru_gulf_trade_desc:0 "Now with our economy secured, our great land shall finally get some glory."
-
-
- #Vanoman Missions
  van_develop_montava_title:0 "Develop Montava"
  van_develop_montava_desc:0 "Montava is the heart of Vanoma. It is the center of governance, trade, culture and faith. Accordingly, we should turn it into the greatest city in the world, the pearl of our nation and the envy of our rivals."
  van_technological_advantage_title:0 "Technological Advantage"
@@ -45,12 +72,6 @@
  van_colonize_borlebin_title:0 "Settle the Eastern Plains"
  van_colonize_borlebin_desc:0 "To our east is a lightly settled grassland area, populated by uncivilized tribes. Colonizing it ourselves would bring us closer to the Aresians, allowing us to trade with them, or maybe engage in some less peaceful endeavors."
  vanoman_settlement_modifier:0 "Taming the Frontier"
-
-
-
-
-
- #Kinvireli Missions
  kin_theory_of_helvania_title:0 "Theory of Helvania"
  kin_theory_of_helvania_desc:0 "The Theory of Helvania was invented centuries ago in Ancient Vaximor. After the collapse of the Oppian Empire, the merchants of Kinvirel founded the Republic based on the democratic ideals of Helvania. It is vital that we preserve these values and do not succumb to autocracy like the rest of Jasua."
  kin_stabilize_the_realm_title:0 "Stabilize the Realm"
@@ -91,7 +112,6 @@
  kin_eastern_gomic_trade_desc:0 "As the major trading power in the eastern Gomic, we are making a lot of money. However, to truly dominate the trade routes, we need a large merchant fleet."
  kin_assert_control_of_hartimatul_title:0 "Assert Control of Hartimatul"
  kin_assert_control_of_hartimatul_desc:0 "Harmanul, our old trading colony, has always been very important. It is a vital outpost for our merchants, but one thing has always been preventing us from using it as a staging ground for invading the Maxan isles, that being the local Maxan population. To take full advantage of Hartimatul, we must expel the locals and re-settle it with Jasuans."
- #Kinvirel Mission Rewards
  kin_jasua_reforged:0 "New Jasuan Empire"
  kin_coffee_boom:0 "Coffee Boom"
  kin_jasuan_resilience:0 "Jasuan Resilience"
@@ -106,12 +126,6 @@
  kin_expelled_oppians:0 "Beating Back the Oppians"
  kin_rejasuofication:0 "Re-Jasuification"
  kin_taking_back_whats_ours:0 "Taking Back What's Ours"
-
-
-
-
-
- #Fashran Missions
  for_the_clouds_title:0 "For the Clouds"
  for_the_clouds_desc:0 "The clouds call for us to slay their enemies and spread the word of their divinity! We shall oblige, to spread our faith far and wide."
  fas_tonmo_zeal:0 "Tonmo Zeal"
@@ -209,7 +223,6 @@
  fas_conversion_of_the_jasuans_desc:0 "Jasua is a great void of religion, as the rapid decline in traditional beliefs allows foreign faiths to take hold. The true faith of Tonmo will be this faith, if it can take root in the hearts of the Jasuan people."
  fas_the_kisholi_tonxara_title:0 "The Kisholi Tonxara"
  fas_the_kisholi_tonxara_desc:0 "The conversion of the Jasuans to the Tonmo faith has changed their culture in turn; they are now the Kisholi. This new identity means any new Tonmo state formed in this region will be the strongest of them all."
- #Fashran Mission Rewards
  fas_home_of_reformation:0 "Home of the Tonmo Reformation"
  tonmo_reformed_modifier:0 "Reformed Tonmo"
  fas_horde_arrives:0 "The Horde Arrives"
@@ -238,12 +251,6 @@
  tonxara_gov_theocracy:0 "Religious Fervor"
  tonxara_ruler_mdf:0 "Founding of a New Empire"
  fas_more_cav:0 "Riders of the Jasuan Plain"
-
-
-
-
-
- #Kapolian Missions
  kap_conquest_of_iaperko_title:0 "Conquer Iakperko"
  kap_conquest_of_iaperko_desc:0 "To secure our foothold in Aresia and northern Jasua, we must conquer the Lathvy city of Iakperko. It will be the gateway between our old and new territories."
  kap_yatian_conquest_title:0 "Yatian Invasion"
@@ -278,18 +285,12 @@
  kap_seize_pasba_desc:0 "Pasba will be ours. With the trading port of Solos, we will be able to control the Aresian Gulf."
  kap_pick_a_side_title:0 "Obtain Divine Favor"
  kap_pick_a_side_desc:0 "We must show that we are loyal to our god, so that he may bless us with good fortune in our endeavors. The future of our people depends on our faith in the Lathvy doctrine above all else."
- #Kapolian Mission Rewards
  kap_aresian_faith:0 "Aresian Light"
  kap_push_the_frontier:0 "Push the Frontier"
  rule_of_the_bamals:0 "Conquest of the Gulf"
  kap_kinvirel_invasion:0 "Preparing for Invasion"
  kap_conquer_kinvirel_modifier:0 "Unification of West Jasua"
  kap_pasban_trade:0 "Pasban Trade"
-
-
-
-
- #Pextoglazian Missions
  pex_obtain_aras_approval_title:0 "Obtain Ara's Blessing"
  pex_obtain_aras_approval_desc:0 "The state of Pextoglazia is based wholly on the Lathvy religion. Without Ara's favor, we would have nothing! As it stands, the clergy are not happy with the situation, from which we can infer that Ara is also displeased. To restore the holiness of Pextoglazia, we must take action to ensure that we are following Ara's will."
  pex_stabilize_the_realm_title:0 "Stabilize the Realm"
@@ -338,7 +339,6 @@
  pex_the_lathvy_empire_desc:0 "We have united most of the Lathvy world under one flag. As both the spiritual leader and ruler of most Lathvyites, we practically control the entire religion. Thus, we might as well make it official. Declaring ourselves as the Lathvy Empire would give us enormous soft power over Estal and beyond. No one could dispute our status as the great empire we really are."
  pex_establish_the_maxan_diocese_title:0 "Establish the Maxan Diocese"
  pex_establish_the_maxan_diocese_desc:0 "Bohora is ours! As we now control all of Moxon's colonies, there are those in our court who suggest we should take it a step further, and launch an invasion of Moxon itself. With Moxon in our hands, we could enforce our beliefs on those who still follow the despicable and heretical Maxan School of Thought."
- #Pextoglazian Mission Rewards
  pex_estali_dominion:0 "Dominion Over Estal"
  pex_averted_disaster:0 "Authority Restored"
  pex_res_loyalty:0 "Lathvy Brotherhood"
@@ -352,12 +352,6 @@
  pex_admin_eff:0 "Diocese of Moxon"
  pex_lessons_degladon:0 "Lessons of Degladon"
  pex_begin_crusade:0 "Great Estali Crusade"
-
-
-
-
-
- #Generic Xalian Missions
  xalian_unite_the_faiths_title:0 "Unite the Faith"
  xalian_unite_the_faiths_desc:0 "For centuries, the Xalian faith has been divided in four. Now that we hold all four Xalian holy sites, we are in a position to end this division permanently."
  united_the_xalian_faith:0 "United the Xalian Faith"
@@ -367,11 +361,6 @@
  xalian_find_converts_desc:0 "Although they are heretics who tried to destroy our region, the Ravshans are no doubt masters of Cavalry combat. As we slowly reclaim some lands where their descandants roam, we should give military jobs to the Ravshan bands who are willing to convert to our faith."
  xalian_expel_tonmo_title:0 "Expel the Tonmo"
  xalian_expel_tonmo_desc:0 "The Tonmo religion is completely heretical and not native to our land at all. It does not fit in, and has so far only caused tragedy. It should be wiped from our region as soon as possible."
-
-
-
-
- #Delkian Missions
  del_expand_the_cites_title:0 "Rebuild Cites"
  del_expand_the_cites_desc:0 "The cities of Delkia were utterly trashed by the Yomtanian armies during the Maxan War. Tragically, even our own capital is in ruins. It is time to begin the rebuilding process, so that our cites will again be the greatest of Ga Xal."
  del_pearl_of_delkia_title:0 "The Holy Capital"
@@ -400,7 +389,6 @@
  del_costal_cites_desc:0 "The cities of the Vinian coast are prime places for ports. For these people, the sea is their true home."
  del_into_ga_xal_title:0 "Rout the Vinians"
  del_into_ga_xal_desc:0 "All remnants of Sixanian statehood have been extinguished, and the route to the heart of Ga Xal is now open. Delkia, the unlikely candidate, may well be the ones to reunite the Xalians."
- #kill yourself
  delkia_xalian_unite_the_faiths_title:0 "Unite the Faith"
  delkia_xalian_unite_the_faiths_desc:0 "For centuries, the Xalian faith has been divided in four. Now that we hold all four Xalian holy sites, we are in a position to end this division permanently."
  delkia_survive_the_invasions_title:0 "Survive the Invasion"
@@ -409,7 +397,6 @@
  delkia_find_converts_desc:0 "Although they are heretics who tried to destroy our region, the Ravshans are no doubt masters of Cavalry combat. As we slowly reclaim some lands where their descandants roam, we should give military jobs to the Ravshan bands who are willing to convert to our faith."
  delkia_expel_tonmo_title:0 "Expel the Tonmo"
  delkia_expel_tonmo_desc:0 "The Tonmo religion is completely heretical and not native to our land at all. It does not fit in, and has so far only caused tragedy. It should be wiped from our region as soon as possible."
- #Delkian Mission Rewards
  rebuilding_delkia:0 "Rebuilding Delkia"
  del_ximal:0 "Expansion of Ximal"
  del_delk_propestiy:0 "Delk's Prosperity"
@@ -420,12 +407,6 @@
  del_punish_gadeans:0 "Punish Gadea"
  del_modern_army:0 "The New Army"
  del_conqueror_of_oppians:0 "Conqueror of Oppians"
-
-
-
-
-
- #Umzatian Missions
  UMZ_effasha_title:0 "Invade Effasha"
  UMZ_effasha_desc:0 "Our fortified position in the mountains gives us a perfect opportunity to flood the steppes below with soldiers."
  UMZ_nutia_title:0 "To the Ossorian Sea"
@@ -459,7 +440,7 @@
  UMZ_sabotage_title:0 "Sabotage Sar"
  UMZ_sabotage_desc:0 "With internal prosperity secured, we can turn our attention north to the Crown Kingdom. Competent diplomacy and infiltration can benefit us greatly in undermining their state. They won't even know what hit them!"
  UMZ_war_title:0 "War of the Crown"
- UMZ_war_desc:0 "The seizure of Imogua was only the beginning. If we are able to justify such a move, Quanex will quickly swear allegiance to us." 
+ UMZ_war_desc:0 "The seizure of Imogua was only the beginning. If we are able to justify such a move, Quanex will quickly swear allegiance to us."
  UMZ_peace_title:0 "The Coronation"
  UMZ_peace_desc:0 "With our glorious victory against the Crown Kingdom, we have secured for ourselves the legendary Crown of Emintas. Our ruler will no longer be a lowly king, but a true Oppian emperor!"
  UMZ_equiso_title:0 "Colonize Equiso"
@@ -468,7 +449,6 @@
  UMZ_hasia_desc:0 "We have come to the strait dividing Estal from that foul nest called Hasia. However, concentric lines of walls and networks of corridors slowly built over hundreds of years have long kept us from entering. But now, with our great army, we are at the cusp of being able to finally end this monstrous menace."
  UMZ_laglon_title:0 "Push Back Laglon"
  UMZ_laglon_desc:0 "The mighty Laglan state is a bit too close for comfort to our lands in Miris. We can expect an invasion at any time, and the best defence is offence."
- #Umzatian Mission Rewards
  umz_colonist:0 "Colonial Expansion"
  umz_cut_off:0 "Isolated From Maritime Trade"
  umz_cut_off_desc:0 "With the Oppians seizing control of the Outer Gomic Isles, this leaves little room for our merchants to operate."
@@ -489,7 +469,7 @@
  umz_chaos:0 "Political Chaos"
  umz_chaos_desc:0 "Our realm is engulfed in political chaos."
  umz_war_enthusiasm:0 "War Enthusiasm"
- umz_war_enthusiasm_desc:0  "Our soldiers cannot wait to seize Quanex."
+ umz_war_enthusiasm_desc:0 ""Our soldiers cannot wait to seize Quanex."
  umz_vassals:0 "Loyal Vassals"
  umz_vassals_desc:0 "Owning the capital of the Oppian Empire gives us significant authority."
  umz_inf:0 "Good Infrastructure"
@@ -499,8 +479,6 @@
  umz_breach:0 "Prepared to Breach Has"
  umz_crushed:0 "Crushed Hasia"
  umzatian_merchants:0 "Umzatian Merchants"
-
- #Anarchy missions
  anarchy_gather_new_levies_title:0 "Gather New Levies"
  anarchy_stability_through_peace_title:0 "Stability And Peace"
  anarchy_unite_neighboring_cities_title:0 "Unify Our Neighbourhood"
@@ -508,7 +486,6 @@
  anarchy_end_title:0 "End the Anarchy"
  anarchy_repair_the_country_title:0 "Repair the Country"
  anarchy_place_of_worship_title:0 "A Place of Worship"
-
  anarchy_gather_new_levies_desc:0 "What few soldiers we have managed to muster for the protection of our nation are not enough. To protect our capital, and perhaps one day reunite Maky, we need a proper fighting force."
  anarchy_stability_through_peace_desc:0 "We have secured a safe position strategically, meaning we are no longer in immediate danger of outside conquest. However, our state is still tragically poor. We must remedy this by ensuring an era of stability, free from the horrors of war."
  anarchy_unite_neighboring_cities_desc:0 "Our state, regardless of our larger ambition, is not exactly a powerful one. We are, at best, a city state. To expand our power and influence, we must expand our territory. This will give us the resources to realize our vision for Maky."
@@ -516,8 +493,6 @@
  anarchy_end_desc:0 "Finally, the years of hardship are behind us. Having established a new, proper government, we can now safely call the anarchic era of Maky over."
  anarchy_repair_the_country_desc:0 "Maky is in shambles. What was once a great nation is now a wasteland of burned fields and ruined cities. Saving the country from eternal irrelevance will be hard work, but we have no choice."
  anarchy_place_of_worship_desc:0 "A great religious vacuum has descended upon Maky. The years of war and poverty have caused faith in the Gods to dwindle. This we cannot tolerate! We must build a new temple for our citizens as soon as possible."
-
- #Eclipse Missions
  eclipse_kalargan_gold_title:0 "Kalargan Gold"
  eclipse_kalargan_gold_desc:0 "A significant portion of [Root.GetName]'s income comes from the gold mines of Kalarga. It is a highly profitable operation, but increased investment in the region could turn the venture from a small part of our economy to its very backbone."
  eclipse_great_port_of_bohora_title:0 "Great Port of Bohora"
@@ -530,11 +505,8 @@
  eclipse_healing_the_rift_desc:0 "The Kachiks of [Root.GetName] have been subjected to many atrocities at the hands of the Bohorans. While the two groups have since come to terms, it may take a long time before they can ever learn to trust one another. We must speed this process along, and we will do so by building a Lathvy identity that transcends ethnic lines."
  eclipse_bohorans_and_kachiks_title:0 "The Bohorans and Kachiks"
  eclipse_bohorans_and_kachiks_desc:0 "By now, the ethnic tensions in [Root.GetName] have been successfully smoothed over. However, our job is not done yet. If we wish to begin a new era of cooperation, we must make sure that the Bohorans and Kachiks are both equally represented in the army, clergy and nobility."
- #Eclipse Rewards
  kalargan_gold_modifier:0 "Gold Mining in Kalarga"
  kalargan_gold_country:0 "Gold Rush"
-
- #Nafan Missions
  naf_prepare_a_great_voyage_title:0 "Prepare a Great Voyage"
  naf_settle_in_larna_title:0 "Settle in Larna"
  naf_the_war_for_makan_title:0 "The War for Makan"
@@ -545,7 +517,6 @@
  naf_the_war_for_makan_desc:0 "§RThis branch of the mission tree is currently not available. It will be added in the coming Otthron Update.§!"
  naf_end_the_yomtanian_menace_desc:0 "§RThis branch of the mission tree is currently not available. It will be added in the coming Otthron Update.§!"
  naf_our_true_destiny_desc:0 "§RThis branch of the mission tree is currently not available. It will be added in the coming Otthron Update.§!"
-
  naf_dominate_the_gomic_title:0 "Dominate the Gomic"
  naf_emastalian_golden_age_title:0 "Emastalian Golden Age"
  naf_build_a_grand_navy_title:0 "Build a Grand Navy"
@@ -601,7 +572,6 @@
  naf_gather_the_greatest_thinkers_title:0 "Nafan Philosophy"
  naf_ponder_the_eclipse_title:0 "Ponder the Sky"
  naf_the_truth_of_the_eclipse_title:0 "The Truth of the Eclipse"
-
  naf_dominate_the_gomic_desc:0 "We are in the prime position to dominate the trade routes of the Gomic. With our core territories right between the trade hubs of Emastalia and western Jasua, we could relatively easy take control of both regions, and thus become an economic superpower."
  naf_utilize_jzoet_desc:0 "The Jzoet tribe, our unlikely Yomtanian friends, have been very helpful so far. They have done many minor errands for us, and acted as the Emperor's personal bodyguards. Now, though, our generals are considering integrating them into the conventional army. They would provide tactical advice, logistical support and act as occupational forces behind the battle lines. After all, what would our neighbors think of us using Yomtanian soldiers? We wouldn't want another Maxan War with us at the receiving end."
  naf_founding_of_syadona_desc:0 "Our new state needs a grand capital, and Bohora won't do. While it is a very important city, Emperor Syadon wants an even grander city to be built in his honor. The prime candidate for this is Tyarda, one of the richest cities in all of Emastalia, sitting at the mouth of the mighty Emila river. With our seat of power in Tyarda, we will be unstoppable!"
@@ -657,9 +627,6 @@
  naf_take_ekelo_desc:0 "§RThis branch of the mission tree is currently not available. It will be added in the coming Dorromas Update.§!"
  naf_gomic_unity_desc:0 "§RThis branch of the mission tree is currently not available. It will be added in the coming Dorromas Update.§!"
  naf_a_shared_identity_desc:0 "§RThis branch of the mission tree is currently not available. It will be added in the coming Dorromas Update.§!"
-
-
- #Nafan Mission Rewards
  bohora_trade_hub:0 "Local Trade Nexus"
  skt_cultural_harmony:0 "Cultural Harmony"
  skt_cultural_harmony_local:0 "Eased Cultural Tensions"
@@ -725,11 +692,6 @@
  naf_truth_reject:0 "Rejection of Science"
  naf_the_truth_mod:0 "The Truth"
  naf_discovered_the_truth:0 "Discerned the Truth"
-
-
-
- 
- #Stroktur Missions
  skt_trade_dominance_title:0 "Trade Dominance"
  skt_trade_dominance_desc:0 "While there was a time where we were confused on the matter, we now have an answer. In [Root.GetName], we are Bohorans. We are of Maxan heritage, and we will do what Maxans do best. Trade!"
  skt_expel_the_kachiks_title:0 "Expel the Kachiks"
@@ -760,8 +722,6 @@
  stroktur_return_to_lerush_desc:0 "No state can truly call itself Maxan without Lerush, the largest island in the Maxan Archipelago. We must seize control of it if we wish to be Moxon's true succcessor."
  stroktur_unite_the_country_mox_title:0 "Unite the Country"
  stroktur_unite_the_country_mox_desc:0 "While we now control most formerly Maxan territory, we are not done yet. The minor isles of Moxon remain, most prominently Xofka. With all of Moxon under our control, nothing will stop us from restoring our glorious empire."
-
- #Stroktur Mission Rewards
  skt_shifting_identity:0 "Shifting Identity"
  skt_est_influence:0 "Emastalian Influence"
  skt_unite_est:0 "Unite Emastalia"
@@ -769,8 +729,6 @@
  skt_new_trade_networks:0 "New Trade Networks"
  skt_claimant_moxon:0 "Claimant to Moxon"
  skt_tradpilled:0 "Traditional Culture"
-
- #Kalargan Missions
  klg_reclaiming_our_heritage_title:0 "Reclaiming Our Heritage"
  klg_reclaiming_our_heritage_desc:0 "The Kachiks were once a formidable tribal culture, stretching from the Maxan isles to the forests of southeast Estal. Then the outsiders came. They subjugated our people, they killed our warriors, and they forced us to leave our homes. No more! Kalarga will reclaim our ancient heritage, building a state free of foreign tyranny."
  klg_renewed_seafaring_culture_title:0 "Seafaring Culture"
@@ -813,8 +771,6 @@
  klg_into_the_woods_desc:0 "It is our destiny to unite the Eastern Estalis, and we must make a concerted effort to bring all of our cultural relatives into the fold."
  klg_unite_eastern_estal_title:0 "Unite Eastern Estal"
  klg_unite_eastern_estal_desc:0 "With the entire region under our control, we are ready to show the people of Eastern Estal the wealth of culture we have to offer, should they wish to join us."
-
- #Kalargan Mission Rewards
  klg_reformed_army:0 "Reformed the Army"
  klg_get_cav:0 "Integrated Cavalry"
  klg_leaders_better:0 "Kalargan Leadership"
@@ -840,10 +796,6 @@
  klg_disrupted_jasuan_trade:0 "Disrupted Jasuan Trade"
  klg_epic_navy:0 "Naval Dominance"
  klg_defeated_kapolia:0 "Bested Kapolia"
-
-
- 
- #Antiash Missions
  antiash_homeland_title:0 "Homeland of the Antiash"
  antiash_homeland_desc:0 "At the beginning of our westward expansion, we have to pass through the native place that we were forced to leave. These are just barren sands, not much more valuable than the rest of the desert, but we may find something of value left behind in the rush. "
  antiash_tokum_title:0 "Colonise Tokum"
@@ -918,11 +870,8 @@
  antiash_ashdamir_desc:0 "The Ashdamiri people have been complaining that they got the smallest and least habitable piece of land after the migration. To fix this problem leaders of their major clans found a beautiful area in Delkia. They give us a deal - if we prepare it for their settlement they will swear loyalty."
  antiash_happy_tribes_title:0 "The Great Meeting"
  antiash_happy_tribes_desc:0 "Now that all four tribes are content and ready to cooperate, we can hold a great meeting and reform to realm."
- 
  ANTIASH_RAID_5_CAPITALS:0 "We have occupied five different capitals"
  ANTIASH_ALLIES_MET:0 "Any allied country:\nHas embraced §YMetallurgy§!"
- 
- #Antiash Rewards
  antiash_raid_receiver:0 "Stolen Goods"
  antiash_raid_receiver_desc:0 ""
  antiash_raid_victim:0 "Unopposed Raids"
@@ -971,30 +920,16 @@
  antiash_happy_kurkari:0 "Pleased Kurkari"
  antiash_settlers:0 "Great Expansion"
  antiash_cav_ratio:0 "Riders of Antiash"
-
-
-
-
- #Anti-Fashran Coalition Missions
  af_anti_fashran_coalition_title:0 "Anti-Fashran Coalition"
  af_anti_fashran_coalition_desc:0 "A terrifying menace is threatening to destroy the world as we know it. The Fashran hordes, if allowed to reign free in Jasua, will destroy our nation, loot our cities and kill our people. We must do everything we can to prevent this, starting with the construction of an alliance network to protect our country. Together we stand, divided we fall."
  af_defender_of_jasua_title:0 "Defender of Jasua"
  af_defender_of_jasua_desc:0 "Fashros has arrived, the horde is at our doorstep! If we have consolidated enough of Jasua to stand up to the invaders, we may succeed. But if we have failed to do so, we are surely doomed to defeat and subjugation."
  af_rout_the_horde_title:0 "Rout the Horde"
  af_rout_the_horde_desc:0 "It is not enough to simply defeat the Fashrans. We must deal a blow so devastating that their armies will be forced on the run! Only when the forces of Fashros have lost all motivation to fight can we truly drive them out of Jasua and achieve ultimate victory."
-
- #Anti-Fashran Coalition Rewards
  protecting_jasua_opinion:0 "Protecting Jasua"
  af_coalition_modifier:0 "Valiant Defence"
  af_defender_of_jasua_modifier:0 "War Preparations"
  fashros_trolled_severely:0 "Demoralizing Defeat"
-
-
-
-
-
-
- #Lyposhi Missions
  lyp_conquer_effasha_title:0 "Conquer Effasha"
  lyp_conquer_effasha_desc:0 "Effasha is the natural enemy of Lyposh. In order to consolidate the south of Oppia, our first step should be the conquest of the Effashan Darlate."
  lyp_unite_erenna_title:0 "Unite Erenna"
@@ -1005,13 +940,9 @@
  lyp_the_golden_city_desc:0 "Having vanquished the Ropleans, it is natural that we turn our sights toward Nutia. Seizing Nuti, the 'Golden City', would grant us total control of central Oppia. Additionally, we could benefit from reverse-engineering the famous Nutian architectural style."
  lyp_develop_lower_oppia_title:0 "Develop Lower Oppia"
  lyp_develop_lower_oppia_desc:0 "We have achieved glory and victory, but our people are still mired in poverty. With taxes from our new subjects, we can improve living conditions all over Erenna."
-
- #Lyposhi Mission Rewards
  lyp_united_the_south:0 "United the South"
  lyp_nutian_architecture:0 "Nutian Architecture"
  lyp_prosperity_in_oppia:0 "Prosperity in Oppia"
-
- #Agixianan Missions
  agx_oust_the_mad_king_title:0 "Oust the Mad King"
  agx_oust_the_mad_king_desc:0 "A madman rules our nation! Until he is taken off the throne, we cannot have any hope for the future of our nation. Only then can we seek to further our interests abroad."
  agx_control_lerush_title:0 "Control Lerush"
@@ -1020,12 +951,8 @@
  agx_seize_the_isles_desc:0 "In order to dominate our main rival, we must first seize the two islands between Lerush and Xofka. Ameleka, on which we already have a foothold, and Vensa Lo, which is an independent duchy."
  agx_defeat_xofka_title:0 "Defeat Xofka"
  agx_defeat_xofka_desc:0 "With the conquest of Ameleka and Vensa, the only remaining obstacle to our inevitable conquest of Moxon is the Republic of Xofka."
-
- #Agixianan Mission Rewards
  agx_new_leadership:0 "New Leadership"
  agx_united_moxon:0 "Moxon United"
-
- #Lukscha Missions
  lks_rein_in_the_chiefs_title:0 "Rein in the Chiefs"
  lks_rein_in_the_chiefs_desc:0 "Controlling all of Lukscham will grant us the legitimacy we need to venture beyond our desolate lands. Divided, we will be stuck here forever."
  lks_ensure_unity_title:0 "Ensure Unity"
@@ -1038,15 +965,12 @@
  lks_in_search_of_loot_desc:0 "Our warriors grow restless without battle. We must find an enemy quickly, or the tribes may turn against each other yet again."
  lks_dominion_over_gotzlica_title:0 "Dominion Over Gotzlica"
  lks_dominion_over_gotzlica_desc:0 "At last, we have found what we were looking for. Straddling the southern shore of the Great Lake, a civilization more advanced than ours has been discovered. Conquering them will ensure the survival of Lukscham."
- #Lukscha Mission Rewards
  lks_reined_in_chiefs:0 "Control the Tribes"
  lks_the_first_forum:0 "The First Forum"
  lks_internal_growth:0 "Internal Growth"
  lks_population_boom:0 "Population Boom"
  lks_into_gotzlica:0 "Invade Gotzlica"
  lks_tiger_of_the_north:0 "Tiger of the North"
-
- #Desert Tribe Missions
  destribe_search_for_water_title:0 "Search for Water"
  destribe_search_for_water_desc:0 "The main reason why the few clans who live in the Great Desert are required to migrate so much is to search for water. It is only found in very small and spare oases, or in underground aquifers. With time, these collections of water will run out and the nomads will pack up and travel to a new location."
  destribe_leave_the_desert_title:0 "Leave the Desert"
@@ -1063,8 +987,6 @@
  destribe_fight_countries_desc:0 "Settled Nations always have an arrogant attitude towards us because of our lifestyle. Maybe burning down their 'fabulous' cities will teach them a lesson or two about respect."
  destribe_trade_monopoly_title:0 "Monopolise Desert Trade"
  destribe_trade_monopoly_desc:0 "We are practically unheard of in the Civilised regions. However, as we slowly develop our small tribe, we can leverage our position to sell wares from the Great Desert, especially the Sanctuary Lake, to these wealthy settled civilisations."
-
- #Gadean Missions
  gadea_inroads_ga_xal_title:0 "Friends in Ga Xal"
  gadea_inroads_ga_xal_desc:0 "\"The enemy of my enemy is my friend\", or so goes the saying. If we are to later beat Ale Mea, it is crucial that we make good relations with their rivals."
  gadea_pirates_of_maner_title:0 "The Pirates of Maner"
@@ -1123,15 +1045,10 @@
  gadea_conquer_vinia_desc:0 "Gadea is no longer a small, tiny, irrelevant state! We will march into Sixan victorious, and burn their heretical artefacts. What sort of religion worships water? We must show them the truth."
  gadea_dominate_gaxal_title:0 "Dominate Ga Xal"
  gadea_dominate_gaxal_desc:0 "Would all the hubris of the Xalians ever predict that it would be us, Opmaki, who rule over them? Certaintly not. Their greedy fists have supressed us for too long. Now it is time to show them how imperialism is done properly."
-
- #Lathvy Missions
  lathvy_pick_a_side_title:0 "Obtain Divine Favor"
  lathvy_pick_a_side_desc:0 "We must show that we are loyal to our god, so that he may bless us with good fortune in our endeavors. The future of our people depends on our faith in the Lathvy doctrine above all else."
- #Lathvy Mission Rewards
  lathvy_bad_boy:0 "Servant of Loys"
  lathvy_good_boy:0 "Servant of Ara"
-
- #Laglan Missions
  lag_feniki_culture_title:0 "Feniki Culture"
  lag_feniki_culture_desc:0 "Following the Lathvy Conversion of Laglon, a new culture is beginning to emerge - the Feniki culture, formed from a combination of Oppian and traditional West Estali cultural traditions. We must drive off the old shackles of Oppian influence, and look forwards to a bright and prosperous future!"
  lag_sense_of_unity_title:0 "A Sense of Unity"
@@ -1198,7 +1115,6 @@
  lag_into_the_fray_desc:0 "We are returning to Oppia! No longer will Laglon be under miserable Oppian Rule - instead, it will be the Oppians who shall be liberated of their tyrranical Kings and Darluses, and all under the hand of the [Root.GetAdjective] Navy."
  lag_overshadow_oppia_title:0 "Overshadow the Oppians"
  lag_overshadow_oppia_desc:0 "We are now greater than the Oppian Empire ever was. We have forged a new Empire of our own, and perhaps it is time to give it a new name to better reflect all the territory we have conquered."
- #Laglan Rewards
  lag_shipbuilding:0 "Shipbuilding Spree"
  lag_royal_trade:0 "Royal Trade Revenue"
  lag_into_pexto:0 "Glazian Invasion"
@@ -1233,8 +1149,6 @@
  lag_control_the_mountain_passes:0 "Control the Mountain Passes"
  lag_abolished_slavery:0 "Abolished Slavery"
  lag_epic_westal_modifier:0 "Great Estali State"
-
- #Zeaf missions
  zea_raise_banners_title:0 "Raise the Banners"
  zea_raise_banners_desc:0 "Zeaf is a nation still mostly dependent on the old tribal clan structure, being the Zeaf Clan it is named after. Now that we have an opening to spread reclaim Maky, we must call upon the people of our nation and rise to arms!"
  zea_into_the_delta_title:0 "Into the Delta"
@@ -1253,8 +1167,6 @@
  zea_turn_on_delkia_desc:0 "Even in the days of the Neo-Xalnish Empire, the Delkians were pulling on our strings. They clearly want to use us to rule over the Opmaki region - what hubris! We shall show them an outcome none of their greedy nobles anticipated, and they will learn to fear the wrath of our Clans!"
  zea_from_the_ruins_title:0 "From the Ruins"
  zea_from_the_ruins_desc:0 "When we first ventured into Maky, we found it annihilated as a result of the Yomtanian wars. However, through charity and goodwill, the Opmaki have rebuilt it, enlightening many to our religion in the process. As we continue to rebuild, we will sponsor the construction of world-class silk manufactories around the trade port of Makykay."
-
- #Rostan Missions
  rst_gold_in_rosta_title:0 "Gold Mining in Rosta"
  rst_gold_in_rosta_desc:0 "Gold is the lifeblood of Rosta. For as long as we have lived here, we have mined the precious metals beneath our feet. Now, we must push production even further!"
  rst_reach_gotzlica_title:0 "Reach Gotzlica"
@@ -1265,17 +1177,12 @@
  rst_unite_the_gotzlics_desc:0 "To truly unite Gotzlica, we must also defeat the Hozyans, a more formidable enemy."
  rst_prospect_for_gold_title:0 "Prospect for Gold"
  rst_prospect_for_gold_desc:0 "We must look for gold in Gotzlica Proper. If it exists in Rosta, could it exist here?"
-
- #Rostan Mission Rewards
  rst_new_gold_mines:0 "Gold Rush"
  rst_gold_source:0 "Gold Exports"
  rst_more_gold:0 "Deep Tunnels"
  rst_rostan_invasion:0 "Rostan Invasion"
  rst_new_capital:0 "The New Capital"
  rst_great_king_of_gotzlica:0 "Great King of the Gotzlics"
-
- ### TCK MISSIONS
-
  tck_restore_umzat_title:0 "Restore Umzat"
  tck_restore_umzat_desc:0 "The Sar Dynasty has been able to rise to reclaim Quanex from the Lathvy occupiets, but our ambitions are much greater. The Kingdom of Umzat in the south is an artificial nation that has arisen out of the Merchant Classes of the Quanex Realm. In our quest to finally restore the Oppian Empire, we must start by installing ourselves as the rightful ruler, restoring the old Imperial Province - or Konusate - of Umzat."
  tck_umzatian_shipyards_title:0 "Umzatian Shipyards"
@@ -1362,8 +1269,6 @@
  tck_ravsho_mercs_desc:0 "It is no doubt that Ravsho people are some of the best cavalrymen in the world. They swiftly cut down Jasua, and we can forgive their pagan religion if they enlist to fight for us in our wars."
  tck_revolutionised_cav_title:0 "Revolutionise Cavalry"
  tck_revolutionised_cav_desc:0 "After fighting alongside Ravshan Mercenaries, our commanders have learnt much about radical new cavalry tactics. If applied correctly, we can dominate in the realm of horseback warefare."
-
- #Diocese Missions
  diocese_gain_strength_title:0 "Gain Strength"
  diocese_gain_strength_desc:0 "If we wish to ever be more than Pomlen's petty pawn, we must first consolidate what power we can. Our little diocese must be stronger than any other."
  diocese_gather_support_title:0 "Gather Support"
@@ -1372,7 +1277,6 @@
  diocese_declare_independence_desc:0 "The day has arrived. We have grown in strength, and secured allies that will help us defeat the Holy King in battle. By the grace of Ara, we shall prevail!"
  diocese_liberty_title:0 "[Root.Culture.GetName] Liberty"
  diocese_liberty_desc:0 "[Root.GetName] is free at last! No longer will we have to kowtow to Pomlen's authority. Instead, we shall forge our own destiny."
- #Diocese Rewards
  diocese_opinion_rival:0 "Opposing Pextoglazia"
  diocese_lometzel:0 "City of Lometzel"
  diocese_diplomatic_outreach:0 "Diplomatic Outreach"
