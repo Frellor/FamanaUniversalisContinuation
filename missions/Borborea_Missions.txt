@@ -1,0 +1,31 @@
+borborea_missions_1 = {
+    slot = 1                    
+    generic = no            
+    ai = yes                 
+    has_country_shield = yes     
+    potential = {
+        tag = BOR
+    }
+    # The name of the mission, used for localization
+    bor_retake_borbor = {
+        icon = mission_crusade_for_varna            
+        position = 1        # Which row the mission appears in. 1 is top. If you omit this line, it will occupy the first row aviable.
+        
+        # Determines which provinces to highlight. Acts like all_province scope. Optional.
+        provinces_to_highlight = {
+            province_id = 5709
+			province_id = 5708
+        }
+    
+        # Determines when the mission is completed. Country scope.
+        trigger = {
+            owns_core_province = 5709
+        }
+        
+        # The effect executed when the mission is claimed. Country scope.
+        effect = {
+            set_capital = 5709
+			add_mil_tech = 1
+        }
+    }
+}
