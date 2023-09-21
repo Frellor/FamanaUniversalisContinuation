@@ -4,8 +4,8 @@ government_rank = 3
 mercantilism = 10
 technology_group = washoom_tech_gr
 religion = washoom
-primary_culture = Jaglonkan
-capital = 7058	
+primary_culture = Edishan
+capital = 7137	
 historical_rival = FAS
 historical_rival = SLK
 

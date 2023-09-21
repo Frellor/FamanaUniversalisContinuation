@@ -408,6 +408,7 @@ EYK = "countries/Eyka.txt"
 
 #Geopyopia
 GEP = "countries/Geopyopia.txt"
+GOS = "countries/Gosi.txt"
 
 #Vishma
 SHV = "countries/Shovela.txt"

@@ -1,5 +1,9 @@
 capital = "Robajsia"
-culture = Placeholder_culture
+add_core = GOS
+owner = GOS
+is_city = yes
+controller = GOS
+culture = Gosian
 religion = animism
 hre = no
 base_tax = 12

@@ -485,19 +485,8 @@ Barits_C = {
 }
 
 #############################
-Geopyopian = {
-	Igizi_Edishan = {
-		male_names = {
-			Haromiam Diajalo Loozamiar Akil Harmiar Toman Tolatar Yako
-		}
-		female_names = {
-			Jalolo Washu Ziri Vida Acren
-		}
-		dynasty_names = {
-			Gastoor Nutia Jora Qyva Red Ligori Onsh Natigua Zimn Viden Apak
-		}
-	}
-	Zeli = {
+Jora = {
+	Jora = {
 		male_names = {
 			Haromiam Diajalo Loozamiar Akil Harmiar Toman Tolatar
 		}
@@ -519,7 +508,7 @@ Geopyopian = {
 			Gastoor Nutia Jora Qyva Red Ligori Onsh Natigua Zing
 		}
 	}
-	Zorfian = {
+	Zorfic = {
 		male_names = {
 			Haromiam Diajalo Loozamiar Akil Harmiar Toman Tolatar Viden Apak
 		}
@@ -541,7 +530,7 @@ Geopyopian = {
 			Gastoor Nutia Jora Qyva Red Ligori Onsh Natigua Zimin Viden Apak
 		}
 	}
-	Roniglan = {
+	Roniglo = {
 		male_names = {
 			Haromiam Diajalo Loozamiar Akil Harmiar Toman Tolatar
 		}
@@ -552,15 +541,15 @@ Geopyopian = {
 			Gastoor Nutia Jora Qyva Red Ligori Onsh Natigua Zimn Viden Apak
 		}
 	}
-	Forlimo_Poguri = {
+	Loxilam = {
 		male_names = {
-			Harumim Djalo Luzmiar Ahil Umiar Toman Tolatar Aro Acren Ettin Menelkir
+			Haromiam Diajalo Loozamiar Akil Harmiar Toman Tolatar
 		}
 		female_names = {
-			Jalolo Washu Ziri Vida Acren
+			Jalolo Washu Ziri
 		}
 		dynasty_names = {
-			Gastur Niwa Jura Kiva Rod Legori Ansh Natigu Viderin Zimn Viden Apak
+			Gastoor Nutia Jora Qyva Red Ligori Onsh Natigua Zidi Viden Apak Lypeus
 		}
 	}
 	Nozuman = {
@@ -572,6 +561,54 @@ Geopyopian = {
 		}
 		dynasty_names = {
 			Gastur Niwa Jura Kiva Rod Legori Ansh Natigu Viderin Zimin Zimion Aspak
+		}
+	}
+}
+
+#############################
+Edishan = {
+	Edishan = {
+		male_names = {
+			Haromiam Diajalo Loozamiar Akil Harmiar Toman Tolatar Yako
+		}
+		female_names = {
+			Jalolo Washu Ziri Vida Acren
+		}
+		dynasty_names = {
+			Gastoor Nutia Jora Qyva Red Ligori Onsh Natigua Zimn Viden Apak
+		}
+	}
+	Natiu = {
+		male_names = {
+			Haromiam Diajalo Loozamiar Akil Harmiar Toman Tolatar
+		}
+		female_names = {
+			Jalolo Washu Ziri
+		}
+		dynasty_names = {
+			Gastoor Nutia Jora Qyva Red Ligori Onsh Natigua Zimin Viden Apak
+		}
+	}
+	Zeli = {
+		male_names = {
+			Haromiam Diajalo Loozamiar Akil Harmiar Toman Tolatar
+		}
+		female_names = {
+			Jalolo Washu Ziri
+		}
+		dynasty_names = {
+			Gastoor Nutia Jora Qyva Red Ligori Onsh Natigua Zidi Viden Apak Lypeus
+		}
+	}
+	Poguri = {
+		male_names = {
+			Haromiam Diajalo Loozamiar Akil Harmiar Toman Tolatar
+		}
+		female_names = {
+			Jalolo Washu Ziri
+		}
+		dynasty_names = {
+			Gastoor Nutia Jora Qyva Red Ligori Onsh Natigua Zidi Viden Apak Lypeus
 		}
 	}
 }
@@ -1315,6 +1352,19 @@ Yomtanian = { # unfinished
 
 	solvakk = {
 		primary = JMN
+		male_names = {
+			Nihaluchan Oboloianifpeni Gweanhrefn Ugujaj Kowa Twon Olid Sxaskxa
+		}
+		female_names = {
+			Ayen Tesey Ifs Moak Mnaxyik
+		}
+		dynasty_names = {
+			Gusan Isk Ga'a Gosi Kaoad Has
+		}
+	}
+	
+	Gosian = {
+		primary = GOS
 		male_names = {
 			Nihaluchan Oboloianifpeni Gweanhrefn Ugujaj Kowa Twon Olid Sxaskxa
 		}

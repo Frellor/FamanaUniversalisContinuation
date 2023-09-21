@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 2
+mercantilism = 10
+technology_group = antestal_yom_tech_gr
+religion = hasian_faith
+primary_culture = Gosian
+capital = 5651
+
+200.1.1 = { #change to 200 or smth
+	monarch = {
+		name = "Brmjuffl"
+		dynasty = "Hjxavvrnm"
+		adm = 3
+		dip = 1
+		mil = 6
+	}
+}
