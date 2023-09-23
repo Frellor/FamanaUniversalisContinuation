@@ -4828,6 +4828,11 @@ on_estate_removed = {
 	}
 }
 
+on_colony_established = {
+}
+on_colony_finished = { #ROOT - Province
+	on_colony_finished_effect = yes
+}
 ##scope = colony province, FROM = owner country or province if there's a minority expulsion source
 on_colonist_boosting_colony = {
 	hidden_effect = {
